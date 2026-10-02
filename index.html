@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gnaneshwar Saketh Yadav - Portfolio | Data Analytics, Statistics & Computer Science Graduate">
+    <meta name="author" content="Gnaneshwar Saketh Yadav">
+    <title>Gnaneshwar Saketh Yadav | Portfolio</title>
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Navigation Bar -->
+    <header class="navbar-header">
+        <nav class="navbar container">
+            <a href="#" class="logo-link">
+                <div class="logo-monogram">GSY</div>
+                <span class="logo-text">Saketh Yadav</span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#certifications" class="nav-item">Certifications</a></li>
+                <li><a href="#strengths" class="nav-item">Strengths</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+                <li class="mobile-only">
+                    <a href="assets/resume.pdf" class="btn btn-accent btn-sm" download target="_blank">
+                        <i class="fa-solid fa-file-arrow-down"></i> Resume
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" class="btn btn-accent desktop-only" download target="_blank">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                </a>
+                <button class="hamburger-menu" id="hamburger-btn" aria-label="Toggle Navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="status-dot"></span> B.Sc. Statistics & Computer Science
+                    </div>
+                    <h1 class="hero-title">Gnaneshwar Saketh Yadav</h1>
+                    <p class="hero-subtitle">Aspiring Data Analyst & CS Graduate</p>
+                    <p class="hero-description">
+                        Motivated B.Sc. student specializing in Statistics and Computer Science with a strong passion for Data Analysis, Visualization, and Database Management.
+                    </p>
+
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+                        <span><i class="fa-solid fa-envelope"></i> sakethyadav2005@gmail.com</span>
+                        <span><i class="fa-solid fa-phone"></i> +91 7207220000</span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline" download target="_blank"><i class="fa-solid fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+
+                <div class="hero-card-visual">
+                    <div class="data-card">
+                        <div class="data-card-header">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="window-title">profile_summary.sql</span>
+                        </div>
+                        <div class="data-card-body">
+                            <pre><code><span class="code-keyword">SELECT</span> * <span class="code-keyword">FROM</span> Candidate Profile
+<span class="code-keyword">WHERE</span> Name = <span class="code-string">'Gnaneshwar Saketh Yadav'</span>
+  <span class="code-keyword">AND</span> Location = <span class="code-string">'Hyderabad, India'</span>
+  <span class="code-keyword">AND</span> Focus = <span class="code-string">'Data Analysis & Visualization'</span>;
+
+<span class="code-comment">-- Status: Ready for Entry-Level Opportunities</span>
+<span class="code-keyword">FETCH</span> Strengths:
+[ Time Management, Leadership, Communication ];</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Career Objective</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="about-card">
+                    <p class="about-text">
+                        Motivated B.Sc. student specializing in Statistics and Computer Science with a strong interest in Data Analysis. Seeking an entry-level position in a supportive environment where I can apply my skills and grow professionally. I am eager to learn and contribute to the organization's success while achieving personal career goals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical & Key Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skill-category-card">
+                        <div class="category-icon"><i class="fa-solid fa-code"></i></div>
+                        <h3>Programming Languages</h3>
+                        <div class="tag-cloud">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">C</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">Java</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Analysis & Visualization -->
+                    <div class="skill-category-card">
+                        <div class="category-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                        <h3>Data Analysis & Visualization</h3>
+                        <div class="tag-cloud">
+                            <span class="tag">Microsoft Excel</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">RStudio</span>
+                        </div>
+                    </div>
+
+                    <!-- Core CS Concepts -->
+                    <div class="skill-category-card">
+                        <div class="category-icon"><i class="fa-solid fa-network-wired"></i></div>
+                        <h3>Core Concepts</h3>
+                        <div class="tag-cloud">
+                            <span class="tag">Data Structures</span>
+                            <span class="tag">DBMS</span>
+                            <span class="tag">Object-Oriented Programming (OOP)</span>
+                        </div>
+                    </div>
+
+                    <!-- Mathematics & Statistics -->
+                    <div class="skill-category-card">
+                        <div class="category-icon"><i class="fa-solid fa-calculator"></i></div>
+                        <h3>Mathematics & Statistics</h3>
+                        <div class="tag-cloud">
+                            <span class="tag">Algebra</span>
+                            <span class="tag">Probability</span>
+                            <span class="tag">Real Analysis</span>
+                            <span class="tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Key Skills -->
+                <div class="key-skills-container">
+                    <h3 class="key-skills-title">Professional Capabilities</h3>
+                    <div class="tag-cloud-lg">
+                        <span class="tag-lg">Professional Communication</span>
+                        <span class="tag-lg">Active Listening</span>
+                        <span class="tag-lg">Data Entry & Documentation</span>
+                        <span class="tag-lg">Computer Proficiency</span>
+                        <span class="tag-lg">Multitasking</span>
+                        <span class="tag-lg">Problem Solving</span>
+                        <span class="tag-lg">Attention to Detail</span>
+                        <span class="tag-lg">Teamwork & Adaptability</span>
+                        <span class="tag-lg">Analytical Thinking</span>
+                        <span class="tag-lg">Customer Service</span>
+                        <span class="tag-lg">Grammar & Spelling Accuracy</span>
+                        <span class="tag-lg">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Educational Qualifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Graduation -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - 2026</span>
+                            <h3 class="timeline-title">B.Sc. in Mathematics, Statistics, and Computer Science</h3>
+                            <p class="timeline-institution">Bhavan's Vivekananda College</p>
+                            <div class="timeline-badge">CGPA: 7.0</div>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2023</span>
+                            <h3 class="timeline-title">Intermediate (MPC)</h3>
+                            <p class="timeline-institution">Bhavans Sri Aurobindo Junior College</p>
+                            <div class="timeline-badge">GPA: 6.7</div>
+                        </div>
+                    </div>
+
+                    <!-- Schooling -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Completed 2021</span>
+                            <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+                            <p class="timeline-institution">Bhashyam High School</p>
+                            <div class="timeline-badge">GPA: 10.0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Training Section -->
+        <section id="certifications" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Certifications & Training</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="cert-info">
+                            <h3>Advanced Tech Training</h3>
+                            <p class="cert-provider">QSpiders</p>
+                            <p class="cert-desc">Completed comprehensive training covering Python, SQL, Power BI, and Microsoft Excel.</p>
+                        </div>
+                    </div>
+
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-info">
+                            <h3>Data Analysis using Excel</h3>
+                            <p class="cert-provider">Great Learning</p>
+                            <p class="cert-desc">Hands-on experience with spreadsheet tools, data modeling, functions, and analysis techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Strengths & Languages -->
+        <section id="strengths" class="section">
+            <div class="container">
+                <div class="grid-2-col">
+                    <!-- Strengths -->
+                    <div class="info-block">
+                        <div class="section-header left-align">
+                            <h2 class="section-title">Key Strengths</h2>
+                            <div class="section-line"></div>
+                        </div>
+                        <div class="strengths-grid">
+                            <div class="strength-item"><i class="fa-solid fa-check"></i> Time Management</div>
+                            <div class="strength-item"><i class="fa-solid fa-check"></i> Effective Communication</div>
+                            <div class="strength-item"><i class="fa-solid fa-check"></i> Adaptability</div>
+                            <div class="strength-item"><i class="fa-solid fa-check"></i> Leadership</div>
+                        </div>
+                    </div>
+
+                    <!-- Languages -->
+                    <div class="info-block">
+                        <div class="section-header left-align">
+                            <h2 class="section-title">Languages</h2>
+                            <div class="section-line"></div>
+                        </div>
+                        <div class="languages-list">
+                            <div class="language-card">
+                                <span class="lang-name">Telugu</span>
+                                <span class="lang-level">Native</span>
+                            </div>
+                            <div class="language-card">
+                                <span class="lang-name">English</span>
+                                <span class="lang-level">Professional</span>
+                            </div>
+                            <div class="language-card">
+                                <span class="lang-name">Hindi</span>
+                                <span class="lang-level">Conversational</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-cards-container">
+                    <a href="mailto:sakethyadav2005@gmail.com" class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <h3>Email</h3>
+                        <p>sakethyadav2005@gmail.com</p>
+                    </a>
+
+                    <a href="tel:+917207220000" class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <h3>Phone</h3>
+                        <p>+91 7207220000</p>
+                    </a>
+
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <h3>Location</h3>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <p>&copy; <span id="current-year"></span> Gnaneshwar Saketh Yadav. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top" aria-label="Back to Top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Link -->
+    <script src="index.js"></script>
+</body>
+</html>
